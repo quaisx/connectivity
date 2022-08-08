@@ -38,7 +38,7 @@ ___________                    _________
 	fmt.Println(strings.Repeat("-", 80))
 	fmt.Println(header)
 	fmt.Println(strings.Repeat("-", 80))
-	port := flag.Int("port", 0, "Server port")
+	port := flag.Int("port", 0, "Server port, 0 if an euphemeral port [49152-65535] is to be picked.")
 
 	flag.Parse()
 
